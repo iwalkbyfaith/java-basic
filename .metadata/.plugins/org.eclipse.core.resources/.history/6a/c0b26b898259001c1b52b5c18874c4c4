@@ -1,0 +1,17 @@
+package constructor;   // ● 실행부 ●
+
+public class Main02_P204 {
+	public static void main(String[] args) {
+		
+		// 덩크슛 성공하는 b1
+		BasketballPlayer b1 = new BasketballPlayer(198, 111);
+		b1.dunkShoot();
+		
+		// 덩크슛 실패하는 b2
+		BasketballPlayer b2 = new BasketballPlayer(180, 120);
+		b2.dunkShoot();
+
+	}
+	
+	
+}

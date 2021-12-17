@@ -1,0 +1,12 @@
+package game.accessmodifier;
+
+// Commoner에서 생성자에서 요구하는 변수가 있다면 에러지만, 요구하는게 없다면 에러날 일이 없음.
+public class Magician extends Commoner {
+	
+	public void hunt() {
+		System.out.println("마법사가 사냥을 시작합니다.");
+		//hp -=2;  원래는 이런식으로 
+	}
+	
+	
+}

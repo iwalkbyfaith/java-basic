@@ -1,0 +1,22 @@
+package game.interaction;
+
+// 클래스 트롤
+public class Troll {
+	
+	private int hp;
+	private int atk;
+	private int def;
+	
+	
+	public Troll() {
+		this.hp = 10;
+		this.atk = 4;
+		this.def = 3;
+	}
+	
+	public void doBattle(int uAtk) {
+		hp = (hp + def) - uAtk;
+		System.out.println("트롤의 남은 체력 : " + hp);
+	}
+
+}

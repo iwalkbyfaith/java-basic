@@ -1,0 +1,23 @@
+package heapmemory;  // 문자열에서 처리하는 경우(특수)
+
+public class Stringcomparison {
+	public static void main(String[] args) {
+		// 문자열은 같은 문자로 저장시 같은 주소를 공유합니다.
+		String str1 = "Hello";
+		String str2 = "Hello";
+		System.out.println(str1);
+		System.out.println(str2);
+	
+		
+		// 일반 변수의 배정 값 조회시 .hashCode()를 씁니다.
+		// 대략적인 주소값을 볼 수 있음
+		System.out.println(str1.hashCode());
+		System.out.println(str2.hashCode());
+		// 주소가 똑같음.
+			// 문자열은 같은 값이면 주소를 돌려씀.
+			// 왜냐하면 문자열은 일부분만 변경할 수 없음.
+		//		str1[0] = "Q";   => The type of the expression must be an array type but it resolved to String
+			
+		
+	}
+}

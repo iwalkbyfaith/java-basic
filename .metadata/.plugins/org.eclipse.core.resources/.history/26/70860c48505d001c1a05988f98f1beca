@@ -1,0 +1,10 @@
+package game.inheritance;
+
+public class Main02 {
+	public static void main(String[] args) {
+		
+		// 워리어 생성을 하나 해주세요.
+		Warrior w1 = new Warrior("왕초보전사");
+		w1.getinfo();
+	}
+}

@@ -1,0 +1,15 @@
+package accessmodifier;     // ● 실행부 ●
+
+public class Main_P197 {
+
+	public Main_P197() {
+		
+	 Warrior w1 = new Warrior("김전사");
+	 
+	 // 사냥 세 번 
+	 w1.hunt();
+	 w1.hunt();
+	 w1.hunt();
+	 
+	}	 
+}

@@ -1,0 +1,21 @@
+package game.inheritance;
+
+public class Commoner {
+
+	private int level;
+	private int hp;
+	private int id;
+	private int mp;
+	
+	public Commoner(int id) {
+		
+		level = 1;
+		hp = 20;
+		mp = 10;
+		this.id = id;
+		
+	}
+	
+	
+	
+}

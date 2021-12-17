@@ -1,0 +1,11 @@
+package polymorphism;
+
+// 부모 클래스를 Person으로 가지도록 상속해주세요.
+public class Student extends Person{
+	
+	// 학생의 등급인 grade를 선언합니다.
+	private int grade;
+	
+	
+
+}

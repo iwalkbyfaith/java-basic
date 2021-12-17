@@ -1,0 +1,22 @@
+package thiskeyword;
+
+public class Person {
+	// 사람의 정보를 여기 기입합니다.
+	
+	private String name;    // 이름
+	private int age;        // 나이
+	private int money;      // 소지금액
+	private String major;   // 전공
+	
+	
+	
+	public Person(String name, int age, int money, String major) {
+		this.name = name;  // this 가 person의 역할을 함.
+		this.age = age;
+		this.money = money;
+		this.major = major;
+	}
+	
+	
+	
+}

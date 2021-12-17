@@ -1,0 +1,7 @@
+package heapmemory;
+
+public class Stringcomparison {
+	public static void main(String[] args) {
+		
+	}
+}

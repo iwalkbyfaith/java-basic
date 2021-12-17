@@ -1,0 +1,16 @@
+package practice;
+
+public class Buyer {
+	
+	// 변수 선언
+	private int money;  // 소지금
+	private int mango;  // 망고 재고량
+	
+	
+	// 생성자
+	public Buyer(int money) {
+		this.money = money;
+		this.mango = 0;
+		System.out.println("새로운 구매자가 등장했습니다.");
+	}
+}

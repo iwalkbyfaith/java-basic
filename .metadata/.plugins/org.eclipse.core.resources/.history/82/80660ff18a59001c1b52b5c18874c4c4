@@ -1,0 +1,28 @@
+package constructor;    // ● 정의부 ●
+
+public class Webtoon {
+	
+	// 멤버 변수
+	public String name;       // 제목
+	public int series; 		  // 회차
+	public String painter;    // 작가
+	public boolean complete;  // 완결여부
+	
+	
+	// 생성자에는 위 4개 정보를 입력 받도록 해주시고
+	// complete는 처음 생성시 false, series는 1로 자동으로 입력됩니다.
+	public Webtoon(int n, int p) {
+		name = n;
+		painter = p;
+		series = 1;
+		complete = false;
+	}
+	
+	// 웹툰 정보 안내하기 메서드 getInfo()
+	
+	// 웹툰 업로드하기 uploadWebtoon() => 시리즈를 1증가
+
+	// 웹툰 완결짓기 completeWebtoon() => complete변수를 true로 변경
+	
+	
+}

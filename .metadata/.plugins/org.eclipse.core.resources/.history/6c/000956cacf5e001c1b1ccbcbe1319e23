@@ -1,0 +1,27 @@
+package interaction;
+
+public class Buyer {
+	
+	private int money;
+	private int mango;
+	private int apple;
+	
+	public Buyer(int money) {
+		this.money = money;
+		this.mango = 0;
+		this.apple = 0;
+	}
+
+	public void buyMango(Seller seller, int mango) {
+		seller.sellMango(mango);
+		this.mango += mango;
+		this.money -= mango * 1000;
+	}
+	
+	
+	public void buyApple(Seller seller, int apple) {
+		seller.sellApple(apple);
+		this.apple += apple;
+		this.money -= apple * 2000;
+	}
+}

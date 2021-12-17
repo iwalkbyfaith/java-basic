@@ -1,0 +1,7 @@
+package overrideing;
+
+public class Cat extends Animal{
+	
+	public String owner;   // 주인이름
+
+}

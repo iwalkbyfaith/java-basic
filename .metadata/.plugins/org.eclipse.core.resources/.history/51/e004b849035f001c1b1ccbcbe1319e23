@@ -1,0 +1,10 @@
+package game.polymorphism;
+
+public class Slame extends Monster {
+
+	public Slame() {
+		super("슬라임", 2, 1);
+		
+	}
+	
+}

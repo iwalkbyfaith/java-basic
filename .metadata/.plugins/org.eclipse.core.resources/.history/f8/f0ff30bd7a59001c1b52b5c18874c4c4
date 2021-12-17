@@ -1,0 +1,19 @@
+package constructor;
+
+public class Main02_P204 {
+	public static void main(String[] args) {
+		
+		BasketballPlayer b1 = new BasketballPlayer(198, 111);
+		System.out.println("b1선수는");
+		b1.dunkShoot();
+		
+		BasketballPlayer b2 = new BasketballPlayer(180, 120);
+		System.out.println("b2선수는");
+		b2.dunkShoot();
+
+		
+		
+	}
+	
+	
+}

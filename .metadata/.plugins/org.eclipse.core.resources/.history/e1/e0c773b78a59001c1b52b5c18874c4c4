@@ -1,0 +1,11 @@
+package constructor;    // ● 정의부 ●
+
+public class Webtoon {
+	
+	// 멤버 변수
+	public String name;       // 제목
+	public int series; 		  // 회차
+	public String painter;    // 작가
+	public boolean complete;  // 완결여부
+
+}

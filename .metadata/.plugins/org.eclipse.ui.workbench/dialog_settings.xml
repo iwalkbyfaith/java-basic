@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211215.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211214.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211213.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211208_10.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211207.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211204.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211203.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211202.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211201 수업.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211130 수업.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\JAVA\20211201\20211201.zip"/>
+			<item value="C:\Users\KDE\OneDrive - 123\바탕 화면\20211130고다은.zip"/>
+		</list>
+	</section>
+</section>

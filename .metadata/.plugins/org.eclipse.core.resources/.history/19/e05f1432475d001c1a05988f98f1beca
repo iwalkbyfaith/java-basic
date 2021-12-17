@@ -1,0 +1,10 @@
+package game.inheritance;
+
+public class Warrior extends Commoner {
+	
+	private int pDam; // 물리 데미지
+	
+	
+	
+
+}

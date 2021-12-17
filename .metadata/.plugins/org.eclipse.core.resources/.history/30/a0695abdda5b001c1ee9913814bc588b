@@ -1,0 +1,25 @@
+package accessmodifier2;
+
+import accessmodifier.Warrior;
+
+public class Main02_P197 {   // 지역도 다르고 패키지 소속도 다름
+	public static void main(String[] args) {
+		
+		Warrior w1 = new Warrior("김전사");
+		
+		// w1.hp = 10000;
+		// 1) hp가 package friendly일때 package가 달라서 hp 변경 불가.
+		// public int hp;가 아니라 그냥 int hp; 일때 (?)
+		// => The field Warrior.hp is not visible
+		
+		// 2) private in hp일때
+		// private 요소인 hp는 메인지역에서 직접 값을 못 바꿈.
+		
+		
+		// 사냥 3번
+		w1.hunt();
+		w1.hunt();
+		w1.hunt();
+	}		
+	}
+

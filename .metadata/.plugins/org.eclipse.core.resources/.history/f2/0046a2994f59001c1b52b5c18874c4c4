@@ -1,0 +1,33 @@
+package constructor;
+
+public class Car {
+
+	// 자동차의 상태(속성)을 나타내는 변수들
+	public int gas;      // 연료량
+	public int speed;    // 속도
+	public String owner; // 차주
+	
+	
+	// 자동차의 동작 추가하기
+	public void getInfo() {
+		System.out.println("현재 연료량 : " + gas);
+		System.out.println("현재 속도 : " + speed);
+		System.out.println("현재 주인 : " + owner);
+		System.out.println("====================== ");
+	}
+
+	// 운전 기능 추가하기(가속하기)
+	public void accelSpeed() {
+		gas -= 2;     // 연료는 줄어들고
+		speed += 10;  // 속도는 늘어난다.
+	}
+	
+	// 브레이크 기능 추가하기(감속하기)
+	public void breakSpeed() {
+		speed -= 10;
+	}
+	
+// 자동차의 기능은 3개가 추가됨
+	// 1. 동작 2.가속 3.감속
+	
+}

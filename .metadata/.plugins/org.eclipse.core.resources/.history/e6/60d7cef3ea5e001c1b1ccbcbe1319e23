@@ -1,0 +1,17 @@
+package polymorphism;
+
+public class Teacher extends Person{
+	
+	private String skill;
+
+	// 생성자 Teacher
+	public Teacher(String name, int age) {
+		super(name, age);
+	}
+	
+	
+	// 메서드 Teacher 조회
+	public void showTeacher() {
+		super.showPerson();
+	}
+}

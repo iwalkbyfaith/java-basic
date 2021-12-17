@@ -1,0 +1,27 @@
+package constructor;   // ● 정의부 ●
+
+public class BasketballPlayer {
+
+	public int height;      // 키
+	public int jumpHeight;  // 점프력
+	
+	//생성자
+	
+	public BasketballPlayer(int h, int j) {
+		height = h;
+		jumpHeight = j;
+		
+		System.out.println("생성된 선수 키 : " + height + 
+						   ", 점프력 : " + jumpHeight);
+	}
+	
+	
+	// 메서드 덩크슛
+	public void dunkShoot() {
+		if(height + jumpHeight > 300) {
+			System.out.println("덩크슛에 성공했습니다");
+		}else {
+			System.out.println("골대에 닿지 않았습니다.");
+		}
+	}
+}

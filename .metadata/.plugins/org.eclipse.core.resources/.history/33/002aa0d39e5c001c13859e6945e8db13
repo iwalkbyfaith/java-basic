@@ -1,0 +1,34 @@
+package thiskeyword;
+
+public class Person {
+	// 사람의 정보를 여기 기입합니다.
+	
+	private String name;    // 이름
+	private int age;        // 나이
+	private int money;      // 소지금액
+	private String major;   // 전공
+	
+	
+	
+	public Person(String name, int age, int money, String major) {
+		this.name = name;         // this = 가장 상위에 있는.
+		this.age = age;           // this가 person의 역할을 함.
+		this.money = money;
+		this.major = major;
+		
+		// 생성자 지역에 있는 name이 person의 name으로 되는 
+		// 생성자 지역에서 name을 호출하면 person클래스의 파란색 name이 아니라 자기 지역이랑 제일 가까운 갈색 name이 호출되는 것.
+		
+		
+		// 하위 지역에서는 상위 지역의 데이터를 가져올 수 있다. (상위 지역에서 하위지역의 내역을 받을수는 없음)
+			// 헷갈리면 폭포가 상위->하위로 떨어진다고 생각. 밑에서는 윗 물을 받아쓸 수 있지만 상위에서는 그럴 수 없음.
+		// 원래 name = n;라고 했을때 된 이유는 1) 생성자지역에서 name 찾아봄 -> 없음 -> 2) 상위 지역인 Person class에서 name을 찾음 -> 발견
+	}
+	
+	/*   <파싱>
+	 *   책으로 비유하면 읽어서 이해하는 것. 사기만 했다고 이해할 수 없음. 읽어야지 이해가 되는 것.
+	 */
+
+	
+	
+}

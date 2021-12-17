@@ -1,0 +1,17 @@
+package polymorphism;
+
+public class Person {
+	// polymorphism = 다형성
+	// Person은 사람을 나타내는 클래스
+	// 실제로 쓰려는 것이 아니라 상속을 목적으로 함.
+	// ★★★ Person을 상속 받은 자식들은 전부 Person을 요구하는 자리에 대입될 수 있다. ★★★
+	
+	private String name;   // 이름
+	private int age;       // 나이
+	
+	
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+}

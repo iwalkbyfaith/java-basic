@@ -1,0 +1,23 @@
+package overloading;
+
+public class Parttimer {
+	
+	
+	// 파트타이머 정보
+	// 오전 여부, 시급, 가게명, 본인 이름
+	
+	private boolean afternoon;  // true면 오후, false면 오전
+	private int pay;            // 시급
+	private String shopName;    // 가게명
+	private String name;        // 본인 이름
+
+	
+	// 생성자 오버로딩은, 생성자를 여러개 오버로딩 형식으로 만드는 것입니다.
+	public Parttimer(boolean a, int b, String s, String n) {
+		
+	}
+	
+	
+	
+
+}

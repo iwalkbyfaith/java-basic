@@ -1,0 +1,17 @@
+package polymorphism;
+
+public class Staff extends Person{
+	
+	
+	// 생성자 Staff
+	public Staff(String name, int age) {
+		super(name, age);
+	}
+
+
+	// 메서드 Staff 조회
+	public void showStaff() {
+		super.showPerson();
+	}
+	
+}

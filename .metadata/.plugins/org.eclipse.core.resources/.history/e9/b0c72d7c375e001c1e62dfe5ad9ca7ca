@@ -1,0 +1,17 @@
+package interaction;
+
+public class Seller {
+	private int money;   // 매출
+	private int mango;   // 재고
+	
+	
+	public Seller(int mango) {
+		this.money = 0;
+		this.mango = mango;
+	}
+	
+	public void sellMango() {
+		
+	}
+	
+}
