@@ -28,9 +28,14 @@ public class Warrior {
 	public void huntOrc(Orc orc) {  // 파라미터로 오크의 값을 받아야한다.(값을 받아야 영향을 주니까)
 		// 전사가 오크를 때리기 위해서 먼저 Orc의 do battle을 호출한다.
 		orc.doBattle(this.atk);
+		if(orc.getHp() <= 0) {
+			System.out.println("전투가 끝났습니다.");
+			System.out.println("교전 결과 전사의 체력 : " + this.hp);
+		}else {
 		// 전사도 오크에게 공격을 받습니다.
 		this.hp = (this.hp + this.def) - orc.getAtk();
 		System.out.println("교전 결과 전사의 체력 : " + this.hp);
+		}
 	}
 	
 	public void hunTroll(Troll troll) {
