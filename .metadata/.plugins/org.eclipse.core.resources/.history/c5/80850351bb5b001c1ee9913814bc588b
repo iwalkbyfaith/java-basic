@@ -1,7 +1,0 @@
-package heapmemory;  // 문자열에서 처리하는 경우(특수)
-
-public class Stringcomparison {
-	public static void main(String[] args) {
-		
-	}
-}

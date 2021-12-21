@@ -42,7 +42,7 @@ public class Asean {
 	// 위 요소 정의 후 Main01.java를 생성해서 구성원 4명을 만들어서 활용해보세요.
 	
 	// private static은 같은 static 영역에서 접근하도록 만들어야 합니다.
-	public static void showPre() {  // 일종
+	public static void showPre() {  // 일종의 getter
 		System.out.println("ASEAN조의 발표 점수는 : " + presentationScore);
 	}
 }

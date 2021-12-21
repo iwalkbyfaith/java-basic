@@ -1,9 +1,0 @@
-package overloading;
-
-public class Parttimer {
-	// 파트타이머 정보
-	
-	
-	// 오전 여부, 시급, 가게명, 본인 이름
-
-}

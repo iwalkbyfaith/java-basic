@@ -1,7 +1,0 @@
-package overrideing;    // ● 정의부 ● (Animal 상속)
-
-public class Cat extends Animal{
-	
-	public String owner;   // 주인이름
-
-}
