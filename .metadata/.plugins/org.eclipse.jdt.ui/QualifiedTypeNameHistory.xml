@@ -7,8 +7,8 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="accessmodifier.Warrior"/>
     <fullyQualifiedTypeName name="superclass.main01"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="interaction.Seller"/>
     <fullyQualifiedTypeName name="game.polymorphism.Orc"/>
     <fullyQualifiedTypeName name="game.polymorphism.Troll"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
