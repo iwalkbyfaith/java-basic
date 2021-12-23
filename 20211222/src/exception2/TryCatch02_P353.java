@@ -19,7 +19,7 @@ public class TryCatch02_P353 {
 		System.out.println("확인 3번");
 		
 		}catch(Exception e){
-			System.out.println("String 타입은 int 타입이 될 수 없습니다");
+			System.out.println("안돼요");
 			
 		}finally {
 			System.out.println("다 끝났습니다.");
