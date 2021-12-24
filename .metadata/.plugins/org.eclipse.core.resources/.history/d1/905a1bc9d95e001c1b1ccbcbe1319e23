@@ -1,8 +1,0 @@
-package polymorphism;
-
-public class Main01_P302 {
-	public static void main(String[] args) {
-		
-		// 부모타입인 Person으로 자식인 Student까지 받을 수 있음.
-	}
-}

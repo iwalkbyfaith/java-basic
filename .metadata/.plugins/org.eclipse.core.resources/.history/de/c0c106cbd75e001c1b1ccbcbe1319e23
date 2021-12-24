@@ -1,8 +1,0 @@
-package polymorphism;
-
-// 부모 클래스를 Person으로 가지도록 상속해주세요.
-public class Student extends Person{
-	
-	
-
-}

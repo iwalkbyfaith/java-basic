@@ -10,5 +10,7 @@
     <fullyQualifiedTypeName name="interaction.Seller"/>
     <fullyQualifiedTypeName name="game.polymorphism.Orc"/>
     <fullyQualifiedTypeName name="game.polymorphism.Troll"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

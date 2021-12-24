@@ -7,10 +7,10 @@ public class TimeCheck01_P384 {
 		
 		// 시작지점
 		long start = System.currentTimeMillis();
-		System.out.println("시작시간 " + start);      // 일반적으로 뜨는 시간이 아니고 ★'Unix 시간'으로 뜸
-												   // 1970년 1월 1일 0시 0분부터 지난 시간을 말함.
-												   // 밀리초니까 뒤부터 3자리는 없애고 확인해야됨.
-												   // DB랑 컴퓨터에서는 유닉스 시간이 표준임.
+		System.out.println("시작시간 " + start);      		// 일반적으로 뜨는 시간이 아니고 ★'Unix 시간'으로 뜸
+												   			// 1970년 1월 1일 0시 0분부터 지난 시간을 말함.
+															// 밀리초니까 뒤부터 3자리는 없애고 확인해야됨.
+															// DB랑 컴퓨터에서는 유닉스 시간이 표준임.
 		long all = 0;
 		
 		for(int i = 0; i < 2000000001; i++) {
