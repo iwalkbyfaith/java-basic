@@ -19,7 +19,7 @@ public class String04_P399 {
 		// 이 경우는 String report에서 바꾸기는 하는데 원본에는 반영이 안되는 경우임.(일시적 바꿈)
 		//report.replace("김영수", "고다은");           // => 안녕하세요. 리포트 보고자는 김영수, 김영수입니다.
 		
-		System.out.println(report);
+		System.out.println(report); 
 		
 	}
 }
