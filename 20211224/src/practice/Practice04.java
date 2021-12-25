@@ -10,7 +10,11 @@ public class Practice04 {
 		
 		
 		for(int i = 0; i < a.length() ; i+=3) {
+		System.out.println("지금 길이는 " + a.length());
+		System.out.println("현재 i는 " + i);
+		System.out.println("없어질 문자는 " + a.charAt(i));
 		System.out.println(a.deleteCharAt(i));
+		System.out.println("======================");
 		}
 		
 		
