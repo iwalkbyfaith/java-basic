@@ -9,7 +9,7 @@ public class String09_P399 {
 		
 		System.out.println(a);
 		System.out.println(b);
-		System.out.println(a == b);
+		System.out.println(a == b);        // Q) a와 b의 주소값이 같나요?
 		
 		System.out.println(a.equals(b));   // Q) a와 b의 내용이 같나요?
 		
