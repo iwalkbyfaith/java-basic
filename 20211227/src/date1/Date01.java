@@ -26,15 +26,15 @@ public class Date01 {
 				
 		
 		// 3) 원래 만들어졌던 Date를 .format()에 넣어줌
-		String strNow2 = sdf.format(now); 
-		System.out.println(strNow2);
+		String strNow1 = sdf.format(now); 
+		System.out.println(strNow1);
 		
 		
 		// (문제) now 변수에 들어있는 출력 양식을 2021년 12월 27일 aa시 bb분 cc초로 변경해서 콘솔에 찍어주세요.
 		
 		SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy년 MM월 dd일 hh시 mm분 ss초 기준시 : z");
-		String strNow3 = sdf1.format(now);
-		System.out.println(strNow3);
+		String strNow2 = sdf1.format(now);
+		System.out.println(strNow2);
 		
 		
 		

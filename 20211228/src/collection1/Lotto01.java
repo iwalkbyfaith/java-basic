@@ -15,10 +15,10 @@ public class Lotto01 {
 		// ArrayList의 정렬은 .sort() 대신 -> Collections.sort(ArrayList)를 사용합니다.
 		
 		
-		// 첫번째 시도 X
+//		// 첫번째 시도 X
 //		List<Integer> list1 = new ArrayList<>();
 //		
-//		for(int i = 0; i < 6; i++) {      => (안되는 이유) 딱 6바퀴만 돌면 중복되어도 6바퀴만 돈다. => while문 써야.
+//		for(int i = 0; i < 6; i++) {                           => (안되는 이유) 딱 6바퀴만 돌면 중복되어도 6바퀴만 돈다. => while문 써야.
 //			int num = (int)(Math.random() * 45) + 1;
 //			list1.add(num);
 //		}
@@ -73,7 +73,7 @@ public class Lotto01 {
 		
 		
 		
-		// 9. 2등 당첨번호 보여주기. 내 버전
+//		// 9. 2등 당첨번호 보여주기. 내 버전
 //		while(true) {
 //		int num2 = (int)(Math.random() * 45) + 1;
 //		if(lotto.contains(num2) == false) {

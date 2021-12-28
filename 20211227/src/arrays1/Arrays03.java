@@ -12,11 +12,11 @@ public class Arrays03 {
 		
 		int[]arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		
-		int[] arrCopy = Arrays.copyOfRange(arr, 3, 7); // 3~6 (3, 4, 5, 6)
+		int[] arrCopy = Arrays.copyOfRange(arr, 3, 7);      // 3~6 (3, 4, 5, 6)
 		System.out.println(Arrays.toString(arrCopy));
 		
 		
-		// 범위를 벗어나게 해보자
+		// 이것도 범위를 벗어나게 해보자
 		int[] arrCopy2 = Arrays.copyOfRange(arr, 8, 13);
 		System.out.println(Arrays.toString(arrCopy2));
 		

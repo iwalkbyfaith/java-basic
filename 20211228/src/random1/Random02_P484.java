@@ -28,7 +28,8 @@ public class Random02_P484 {
 		Random random = new Random();
 		
 		for(int i = 0; i < count  ; i++) {
-		Boolean result = random.nextBoolean();       // result 변수를 안 만들고 random 변수를 바로 main:34에 넣어도 됨.
+		Boolean result = random.nextBoolean();       
+			// result 변수를 안 만들고 random 변수를 바로 main:35에 넣어도 됨.
 		
 		// 4. result 결과 값이 true면 앞면에 +1, false면 뒷면에 +1
 		if(result == true) {

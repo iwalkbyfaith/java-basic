@@ -48,7 +48,7 @@ public class LinkedList01_P447 {
 		System.out.println(list1);
 		
 		
-		
+			
 		
 		// ArrayList (=순차 리스트)
 		// 빈 공간이 없음.(무조건) 인덱스 0을 삭제하면 뒤에서 땡겨옴. 마지막 공간 한 칸(비어진 칸)은 삭제됨.
