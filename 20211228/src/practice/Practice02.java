@@ -42,17 +42,17 @@ public class Practice02 {
 			
 			
 				if(num.equals(number)) {
+					count++ ;
 					System.out.println("===============================================");
 					System.out.println("당첨 번호는 : " + num);
 					System.out.println("추첨 번호는 : " + number);
 					System.out.println("총 로또 복권을 " + count * 1000 + "원 사고서야 1등에 당첨 되셨습니다.");
 					System.out.println("===============================================");
 					bool = false;
-				
 				}else {
 					count++;
 					number.clear();
-			}
+				}	
 		}
 	}
 
