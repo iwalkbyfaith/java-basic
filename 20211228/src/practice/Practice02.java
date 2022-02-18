@@ -17,11 +17,11 @@ public class Practice02 {
 		List<Integer> num = new ArrayList<>();
 		
 		num.add(1);
+		num.add(11);
 		num.add(12);
-		num.add(21);
-		num.add(34);
-		num.add(35);
-		num.add(44);
+		num.add(17);
+		num.add(19);
+		num.add(20);
 		
 		
 		List<Integer> number = new ArrayList<>();
@@ -32,7 +32,7 @@ public class Practice02 {
 		while(bool) {
 		
 			while(number.size() != 6) {
-				number1 = (int)(Math.random() * 45) + 1 ;
+				number1 = (int)(Math.random() * 20) + 1 ;
 					if(number.contains(number1) == false) {
 						number.add(number1);
 					}
